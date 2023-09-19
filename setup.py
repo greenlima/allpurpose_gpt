@@ -7,7 +7,7 @@ requirements = [x.strip() for x in content if "git+" not in x]
 
 setup(name='allpurpose_gpt',
       version="0.0.1",
-      description="gpt interface with system prompt initialization and persistent memory",
+      description="gpt-like interface with system prompt initialization and conversational memory",
       license="MIT",
       author="Ferran Galan",
       author_email="reach@protonmail.com",

@@ -1,7 +1,7 @@
-allpurpose_gpt
+
 # If true (default), the app will be available to anonymous users.
 # If false, users will need to authenticate and be part of the project to use the app.
-public = false
+public = true
 
 # The project ID (found on https://cloud.chainlit.io).
 # The project ID is required when public is set to false or when using the cloud database.
@@ -24,7 +24,7 @@ session_timeout = 3600
 
 [UI]
 # Name of the app and chatbot.
-name = "allpurpose_gpt"
+name = "🤖"
 
 # Description of the app and chatbot. This is used for HTML tags.
 # description = ""

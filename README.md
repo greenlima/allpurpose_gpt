@@ -6,5 +6,5 @@ Tapping into Openai's GPT, 🤖 has conversational memory which allows you to ha
 You can create the type of assistant that suits you best on start by prompting your reply to 🤖's first question: 
 
 <p align="center">
-	<img src="" width="80%" />
+	<img src="https://github.com/greenlima/allpurpose_gpt/blob/master/img/prompt.jpg" width="80%" />
 </p> 

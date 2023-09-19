@@ -10,4 +10,4 @@ You can create the type of assistant that suits you best on start by prompting y
 	<img src="https://github.com/greenlima/allpurpose_gpt/blob/master/img/prompt.jpg" width="90%"/>
 </p>
 
-I use 🤖 regularly for my daily 💻 work. I am sure he will be useful to you too 😊.
+I use 🤖 regularly for my daily 💻 work. I am sure 🤖 will be useful to you too 😊.

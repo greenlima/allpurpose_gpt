@@ -1,6 +1,6 @@
 # allpurpose_gpt 🤖
 
-Say Hi! 👋 to a new GPT-like assistant built with [Chainlit](https://github.com/Chainlit/chainlit)!!!
+Say Hi! 👋 to a new GPT-like assistant built with [Chainlit](https://github.com/Chainlit/chainlit).
 
 Tapping into Openai's GPT, 🤖 has conversational memory which allows you to have long conversations on any particular topic.
 

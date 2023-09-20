@@ -18,6 +18,6 @@ I have not deployed the app yet, but you can run it locally with your own openai
 
 1. Clone the repo
 2. Create a .env file in root with your OPENAI_API_KEY = "xxx"
-3. Install the package. In terminal, type: make install_package
-4. Run it! In terminal, type: make run_gpt
+3. Install the package. In terminal, type: make install_allpurpose_gpt
+4. Run it! In terminal, type: make run_allpurpose_gpt
 

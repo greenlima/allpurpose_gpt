@@ -1,6 +1,6 @@
 import chainlit as cl
 import openai
-
+from chainlit import user_session
 import os
 from dotenv import load_dotenv
 

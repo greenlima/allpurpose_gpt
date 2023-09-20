@@ -17,7 +17,7 @@ I use 🤖 regularly for my daily 💻 work. I am sure 🤖 will be useful to yo
 I have not deployed the app yet, but you can run it locally with your own openai api key.
 
 1. Clone the repo
-2. Create a .env file in root with your OPENAI_API_KEY = "xxx"
+2. Create a .env file in root with your OPENAI_API_KEY = "your_openai_api_key"
 3. Install the package. In terminal, type: make install_allpurpose_gpt
 4. Run it! In terminal, type: make run_allpurpose_gpt
 

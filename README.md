@@ -11,3 +11,10 @@ You can create the type of assistant that suits you best on start by prompting y
 </p>
 
 I use 🤖 regularly for my daily 💻 work. I am sure 🤖 will be useful to you too 😊.
+
+## How to
+
+1. Clone the repo
+2. Create a .env file with your OPENAI_API_KEY = "xxx" in root
+3. In terminal, type: make run_gpt
+

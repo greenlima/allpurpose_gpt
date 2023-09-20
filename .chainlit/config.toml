@@ -27,7 +27,7 @@ session_timeout = 3600
 name = "🤖"
 
 # Description of the app and chatbot. This is used for HTML tags.
-# description = ""
+# description = "ChatGPT-like assistant built with Chainlit"
 
 # The default value for the expand messages settings.
 default_expand_messages = false

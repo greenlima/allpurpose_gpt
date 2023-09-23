@@ -18,7 +18,7 @@ I have not deployed the app yet, but you can run it locally with your own openai
 
 **1. Clone the repo.** In terminal, type:
    ```
-   mkdir allpurpose_gpt && cd "$_"
+   mkdir your_dir_name && cd "$_"
    git clone git@github.com:greenlima/allpurpose_gpt.git
    cd allpurpose_gpt
    ```

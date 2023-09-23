@@ -12,12 +12,25 @@ You can create the type of assistant that suits you best on start by prompting y
 
 I use 🤖 regularly for my daily 💻 work. I am sure 🤖 will be useful to you too 😊.
 
-## How to
+## How to install
 
 I have not deployed the app yet, but you can run it locally with your own openai api key.
 
-1. Clone the repo
-2. Create a .env file in root with your OPENAI_API_KEY = "your_openai_api_key"
-3. Install the package. In terminal, type: make install_allpurpose_gpt
-4. Run it! In terminal, type: make run_allpurpose_gpt
+**1. Clone the repo.** In terminal, type:
+   ```
+   mkdir allpurpose_gpt && cd "$_"
+   git clone git@github.com:greenlima/allpurpose_gpt.git
+   cd allpurpose_gpt
+   ```
+
+**2. Create a .env file** in root with your OPENAI_API_KEY:
+   ```
+   OPENAI_API_KEY = "your_openai_api_key"
+   ```
+
+**3. Install the package.** In terminal, type the following command:
+   ```make install_allpurpose_gpt```
+   
+**4. Run it!** In terminal, type:
+   ```make run_allpurpose_gpt```
 

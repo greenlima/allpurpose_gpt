@@ -33,5 +33,6 @@ I have not deployed the app yet, but you can run it locally with your own openai
    
 **4. Run it!** In terminal, type:
    ```make run_allpurpose_gpt```
-Give it a few seconds and a browser tab with open with 🤖
+
+Give it a few seconds and a browser tab will open with 🤖
 

@@ -14,7 +14,7 @@ I use 🤖 regularly for my daily 💻 work. I am sure 🤖 will be useful to yo
 
 ## How to install
 
-I have not deployed the app yet, but you can run it locally with your own openai api key.
+You can run 🤖 locally with your own openai api key. Follow the steps:
 
 **1. Clone the repo.** In terminal, type:
    ```
@@ -35,4 +35,6 @@ I have not deployed the app yet, but you can run it locally with your own openai
    ```make run_allpurpose_gpt```
 
 Give it a few seconds and a browser tab will open with 🤖
+
+
 

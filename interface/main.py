@@ -24,8 +24,9 @@ async def main(message:str):
     else:
         messages.append({"role": "user", "content": message})
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            max_tokens=500,
+            model="gpt-3.5-turbo-1106",
+            #model="gpt-4-1106-preview",
+            max_tokens=1500,
             messages=messages)
         reply = response["choices"][0]["message"]["content"]
         messages.append({"role": "assistant", "content": reply})

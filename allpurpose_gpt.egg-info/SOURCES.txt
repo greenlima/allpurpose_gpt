@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+allpurpose_gpt.egg-info/PKG-INFO
+allpurpose_gpt.egg-info/SOURCES.txt
+allpurpose_gpt.egg-info/dependency_links.txt
+allpurpose_gpt.egg-info/not-zip-safe
+allpurpose_gpt.egg-info/requires.txt
+allpurpose_gpt.egg-info/top_level.txt
+interface/__init__.py
+interface/main.py

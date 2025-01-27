@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: allpurpose_gpt
+Version: 0.0.1
+Summary: gpt-like interface with system prompt initialization and conversational memory
+Author: Ferran Galan
+Author-email: reach@protonmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: chainlit==0.7.0
+Requires-Dist: openai==0.28.0
+Requires-Dist: dotenv
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

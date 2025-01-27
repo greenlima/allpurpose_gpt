@@ -1,0 +1,10 @@
+compile = "make"
+modules = ["python-3.12"]
+run = "make run_allpurpose_gpt"
+
+[deployment]
+build = ["sh", "-c", "make"]
+run = ["sh", "-c", "make run_allpurpose_gpt"]
+
+[nix]
+channel = "stable-24_05"

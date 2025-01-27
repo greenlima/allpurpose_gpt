@@ -1,0 +1,61 @@
+WARNING: Skipping allpurpose_gpt as it is not installed.
+Obtaining file:///home/runner/workspace
+  Installing build dependencies ... done
+  Checking if build backend supports build_editable ... done
+  Getting requirements to build editable ... done
+  Preparing editable metadata (pyproject.toml) ... done
+Collecting chainlit==0.7.0 (from allpurpose_gpt==0.0.1)
+  Using cached chainlit-0.7.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting openai==0.28.0 (from allpurpose_gpt==0.0.1)
+  Using cached openai-0.28.0-py3-none-any.whl.metadata (13 kB)
+Collecting dotenv (from allpurpose_gpt==0.0.1)
+  Using cached dotenv-0.0.5.tar.gz (2.4 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Installing backend dependencies ... error
+  error: subprocess-exited-with-error
+  
+  × pip subprocess to install backend dependencies did not run successfully.
+  │ exit code: 1
+  ╰─> [29 lines of output]
+      Collecting distribute
+        Using cached distribute-0.7.3.zip (145 kB)
+        Installing build dependencies: started
+        Installing build dependencies: finished with status 'done'
+        Getting requirements to build wheel: started
+        Getting requirements to build wheel: finished with status 'done'
+        Preparing metadata (pyproject.toml): started
+        Preparing metadata (pyproject.toml): finished with status 'error'
+        error: subprocess-exited-with-error
+      
+        × Preparing metadata (pyproject.toml) did not run successfully.
+        │ exit code: 1
+        ╰─> [6 lines of output]
+            usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+               or: setup.py --help [cmd1 cmd2 ...]
+               or: setup.py --help-commands
+               or: setup.py cmd --help
+      
+            error: invalid command 'dist_info'
+            [end of output]
+      
+        note: This error originates from a subprocess, and is likely not a problem with pip.
+      error: metadata-generation-failed
+      
+      × Encountered error while generating package metadata.
+      ╰─> See above for output.
+      
+      note: This is an issue with the package mentioned above, not pip.
+      hint: See above for details.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× pip subprocess to install backend dependencies did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+make: *** [Makefile:5: install_allpurpose_gpt] Error 1
+ 

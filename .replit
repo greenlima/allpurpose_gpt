@@ -3,7 +3,7 @@ modules = ["python-3.12"]
 run = "make run_allpurpose_gpt"
 
 [deployment]
-build = ["sh", "-c", "make install_allpurpose_gpt"]
+build = ["sh", "-c", "apt-get update && apt-get install -y make && make install_allpurpose_gpt"]
 run = ["sh", "-c", "make run_allpurpose_gpt"]
 
 [nix]

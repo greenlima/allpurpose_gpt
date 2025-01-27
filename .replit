@@ -3,8 +3,12 @@ modules = ["python-3.12"]
 run = "make run_allpurpose_gpt"
 
 [deployment]
-build = ["sh", "-c", "make"]
+build = ["sh", "-c", "make install_allpurpose_gpt"]
 run = ["sh", "-c", "make run_allpurpose_gpt"]
 
 [nix]
 channel = "stable-24_05"
+
+[[ports]]
+localPort = 8000
+externalPort = 80

@@ -8,7 +8,7 @@ License: MIT
 License-File: LICENSE
 Requires-Dist: chainlit==0.7.0
 Requires-Dist: openai==0.28.0
-Requires-Dist: dotenv
+Requires-Dist: python-dotenv
 Dynamic: author
 Dynamic: author-email
 Dynamic: license

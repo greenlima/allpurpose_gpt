@@ -18,21 +18,20 @@ You can run 🤖 locally with your own openai api key. Follow the steps:
 
 **1. Clone the repo.** In terminal, type:
    ```
-   mkdir your_dir_name && cd "$_"
    git clone git@github.com:greenlima/allpurpose_gpt.git
    cd allpurpose_gpt
    ```
 
-**2. Create a .env file** in root with your OPENAI_API_KEY:
+**2. Edit and rename the .env.example file** to **.env** with your OPENAI_API_KEY:
    ```
    OPENAI_API_KEY = "your_openai_api_key"
    ```
 
 **3. Install the package.** In terminal, type the following command:
-   ```make install_allpurpose_gpt```
+   ```python run.py install```
    
 **4. Run it!** In terminal, type:
-   ```make run_allpurpose_gpt```
+   ```python run.py run```
 
 Give it a few seconds and a browser tab will open with 🤖
 
